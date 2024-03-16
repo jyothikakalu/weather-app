@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px
+}
+.container{
+    height:100vh;
+    width: 100%;
+    padding-top: 50px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWqPGoRiQ0Q5kmb1UDwi161IpVnoqyJo-XQ&usqp=CAU");
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+.weather {
+    width:380px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input {
+    border: none;
+    outline: 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWqPGoRiQ0Q5kmb1UDwi161IpVnoqyJo-XQ&usqp=CAU");
+    background-repeat: no-repeat;
+    color:black;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+}
+.search button{
+    border: none;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search button img{
+    width: 45px;
+    height: 35px;
+}
+.winfo{
+    margin-top: 20px;
+    width:170px ;
+}
+.winfo h1{
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.winfo h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+.details .col{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    gap:20px;
+}
+.details .col img{
+    width: 25px;
+    margin-right: 10px;
+}
+.humidity .wind{
+  font-size: 27px;
+  gap:5px;
+  padding:10px
+}
+.humidity p, .wind p {
+    margin-top: 0px;
+}
